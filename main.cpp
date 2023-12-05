@@ -14,7 +14,7 @@ public:
         if symbolTable.find(symbol) != symbolTable.end() {
             std::cout << "Symbol " << symbol << " already exists" << std::endl;
         } else {
-            symbolTable.insert(std::pair<std::string, int>(symbol, value));
+            symbolTable[symbol] = value;
         }
 
     }
