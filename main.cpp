@@ -40,6 +40,12 @@ public:
     if symbolTable.find(symbol) != symbolTable.end() {
     symbolTable.erase(symbol);}
     }else {
+        throw std::runtime_error("Symbol " + symbol + "does not exist in the environment")
+    }
+
+    bool exists(const std::string& symbol) {
+        return symbolTable.find(symbol) != symbolTable.end();
+    }
 }
 
 ;
