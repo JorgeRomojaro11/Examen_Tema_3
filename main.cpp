@@ -36,4 +36,10 @@ public:
         }
     }
 
-};
+    void remove(const std:string & symbol) {
+    if symbolTable.find(symbol) != symbolTable.end() {
+    symbolTable.erase(symbol);}
+    }else {
+}
+
+;
