@@ -20,6 +20,11 @@ public:
     }
 
     int lookup(const std::string& symbol) {
-        if symbolTable.find(symbol)
+        if symbolTable.find(symbol) != symbolTable.end() {
+            return symbolTable[symbol];
+        } else {
+            std::cout << "Symbol " << symbol << " does not exist" << std::endl;
+            return 0;
+        }
     }
 };
