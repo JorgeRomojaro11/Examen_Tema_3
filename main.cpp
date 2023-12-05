@@ -18,4 +18,8 @@ public:
         }
 
     }
+
+    int lookup(const std::string& symbol) {
+        if symbolTable.find(symbol)
+    }
 };
