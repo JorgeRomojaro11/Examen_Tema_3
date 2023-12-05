@@ -110,9 +110,20 @@ playerState.add("health", Variant(100));
 playerState.add("score", Variant(0));
 playerState.add("inventory", Variant(std::vector<std::string>{"sword", "shield"}));
 
- Puedes usar la clase Environment para almacenar el estado del jugador, como la salud, la puntuación, el inventario, etc. Cada estado puede ser un símbolo en el Environment con un valor Variant asociado.
- 
+Puedes usar la clase Environment para almacenar el estado del jugador, como la salud, la puntuación, el inventario, etc. Cada estado puede ser un símbolo en el Environment con un valor Variant asociado.
 
+
+8.Reflexión y Mejoras:
+
+Basándote en tu implementación, discute posibles mejoras o extensiones que podrían beneficiar al sistema de scripting en el futuro. Considera aspectos como la optimización, expansión de la tabla de símbolos, o la introducción de funciones más avanzadas
+ 
+El sistema del scripting, al igual que la tecnología y los lenguajes de programación, puede evolucionar y beneficiarse de un sistema de scripting. Estos son varios de los ejemplos que pueden mejorar el sistema de scripting.
+
+1-Expansión de la tabla de símbolos: Actualmente, la tabla de símbolos solo puede almacenar símbolos y sus valores correspondientes. Podría ser útil expandir la tabla de símbolos para almacenar más información sobre cada símbolo, como su tipo, su ámbito (global o local), etc.
+
+2-Mejora de la gestión de errores: El sistema de scripting podría beneficiarse de una mejor gestión de errores, como la capacidad de manejar y reportar errores de sintaxis, errores de tiempo de ejecución, etc.
+
+3-
 
 
 
