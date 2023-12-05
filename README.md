@@ -123,7 +123,15 @@ El sistema del scripting, al igual que la tecnología y los lenguajes de program
 
 2-Mejora de la gestión de errores: El sistema de scripting podría beneficiarse de una mejor gestión de errores, como la capacidad de manejar y reportar errores de sintaxis, errores de tiempo de ejecución, etc.
 
-3-
+3-Interoperabilidad con otros lenguajes: Sería útil si el sistema de scripting pudiera interactuar con otros lenguajes de programación. Por ejemplo, podría ser útil poder llamar a funciones escritas en otros lenguajes desde el sistema de scripting, o viceversa.
+
+4-Optimización: La eficiencia del sistema de scripting puede mejorarse mediante la optimización de la búsqueda y la manipulación de símbolos en la tabla de símbolos. Por ejemplo, se podría implementar una tabla de hash para la tabla de símbolos para mejorar la velocidad de búsqueda.
+
+5-Introducción de funciones más avanzadas: El sistema de scripting podría beneficiarse de la introducción de funciones más avanzadas, como la capacidad de definir y llamar a funciones, la capacidad de realizar operaciones de control de flujo (como bucles y condicionales), etc.
+
+6-Soporte para tipos de datos más complejos: Actualmente, el sistema de scripting solo soporta tipos de datos básicos. Podría ser útil añadir soporte para tipos de datos más complejos, como listas, diccionarios, objetos, etc.
+
+
 
 
 
