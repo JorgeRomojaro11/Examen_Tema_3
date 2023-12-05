@@ -102,6 +102,15 @@ gameSettings.add("sound_volume", Variant(0.5));
 gameSettings.add("game_difficulty", Variant("hard"));
 
 Puedes usar la clase Environment para almacenar las configuraciones del juego, como el volumen del sonido, la dificultad del juego, etc. Cada configuración puede ser un símbolo en el Environment con un valor Variant asociado.
+
+3-Gestión de estados de jugador:
+
+Environment playerState;
+playerState.add("health", Variant(100));
+playerState.add("score", Variant(0));
+playerState.add("inventory", Variant(std::vector<std::string>{"sword", "shield"}));
+
+ Puedes usar la clase Environment para almacenar el estado del jugador, como la salud, la puntuación, el inventario, etc. Cada estado puede ser un símbolo en el Environment con un valor Variant asociado.
  
 
 
