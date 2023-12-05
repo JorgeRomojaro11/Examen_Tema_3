@@ -1,5 +1,6 @@
 #include <iostream>
 #include <map>
+#include <stdexcept>
 
 class environment {
 private:
@@ -12,6 +13,10 @@ public:
 
     Void insert(const std::string& symbol, int value) {
         if symbolTable.find(symbol) != symbolTable.end() {
+            if symbolTable[symbol] != value {
+                throw std::runtime_error("Symbol " + symbol + " already exists with value " + std::to_string(symbolTable[symbol]));
+            }
+
             std::cout << "Symbol " << symbol << " already exists" << std::endl;
         } else {
             symbolTable[symbol] = value;
@@ -27,4 +32,5 @@ public:
             return 0;
         }
     }
+
 };
